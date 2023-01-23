@@ -1,11 +1,13 @@
 body{
-    font-family:open sans,sans-serif;
+    font-family: 'Georgia', serif;
+    background-color: #f0cfc3;
   }
 
 header{
   height: 100px;
-  border-bottom: 1px solid #000;
-  margin-bottom: 40px;
+  border-bottom: 3px solid #BB2649;
+  margin: auto;
+  padding: 20px;
 }
 
 @media (max-width:768px){
@@ -17,14 +19,41 @@ header{
 }
 
 h1{
-    text-transform: uppercase;
-    margin:0px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #bb2649;
+  font-weight: bold;
+  font-size: 52px;
 }
 
 @media (max-width: 768px) {
-  h1 {
-       font-size: 36px;
-    }
+h1 {
+     font-size: 36px;
+  }
+}
+
+.principal {
+  display: flex;
+  float: left;
+  position: relative;
+  max-width: 50%;
+  margin-left: auto;
+  margin-top: 100px;
+}
+
+.principal ul{
+  text-align: left;
+}
+
+.principal li {
+  display: block;
+  padding-bottom: 10px;
+}
+
+.principal a{
+  color: #bb2649;
+  font-size: 20px;
+  margin-right: auto;
 }
 
 section{
